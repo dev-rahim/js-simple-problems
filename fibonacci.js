@@ -29,7 +29,7 @@ function getFibonacci( num ) {
     if ( typeof num != 'number' ) {
         return 'Plese give a number'
     }
-    else if ( num < 2 ) {
+    if ( num < 2 ) {
         return 'please enter a positive number or number greater the 1'
     }
     const fibo = [ 0, 1 ];
